@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AasiaActivity">
+
+
+    <TextView
+        android:id="@+id/txtKiina"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtdubai"
+        android:layout_alignTop="@+id/txtIntia"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Kiina"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btIntia"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtIntia"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/flag_india" />
+
+    <Button
+        android:id="@+id/btKiina"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btIntia"
+        android:background="@drawable/flag_china" />
+
+    <TextView
+        android:id="@+id/txtIntia"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btAfg"
+        android:layout_alignStart="@+id/txtRussia"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Intia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/txtAfg"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btThailand"
+        android:layout_alignStart="@+id/txtIntia"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Afganistan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btAfg"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/flag_afg" />
+
+    <Button
+        android:id="@+id/btdubai"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/flag_dubai" />
+
+    <TextView
+        android:id="@+id/txtdubai"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtAfg"
+        android:layout_marginEnd="73dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Dubai"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/txtRussia"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Thaimaa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btThailand"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtRussia"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/flag_thailand" />
+
+    <Button
+        android:id="@+id/btQatar"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtRussia"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/flag_qatar" />
+
+    <TextView
+        android:id="@+id/txtQatar"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtKiina"
+        android:layout_alignTop="@+id/txtRussia"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Qatar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <TextView
+        android:background="@android:color/darker_gray"
+        android:id="@+id/textAasia"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Aasia"
+
+         />
+
+
+</RelativeLayout>

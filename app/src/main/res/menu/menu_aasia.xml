@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AasiaActivity">
+
+    <item
+        android:id="@+id/Etusivu"
+        android:title="Etusivu" />
+    <item
+        android:id="@+id/Eurooppa"
+        android:title="Eurooppa" />
+    <item
+        android:id="@+id/PA"
+        android:title="Pohjois-Amerikka" />
+    <item
+        android:id="@+id/EA"
+        android:title="Etelä-Amerikka" />
+</menu>

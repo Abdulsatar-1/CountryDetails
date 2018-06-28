@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cas.satar.com.countrydetails">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".IntiaActivity" />
+        <activity android:name=".KiinaActivity" />
+        <activity android:name=".AasiaActivity" />
+        <activity android:name=".EurooppaActivity" />
+        <activity android:name=".PohjoisAmerikkaActivity" />
+        <activity android:name=".EtelaAmerikkaActivity" />
+        <activity android:name=".AfganistanActivity" />
+        <activity android:name=".DubaiActivity" />
+        <activity android:name=".ThaimaaActivity" />
+        <activity android:name=".QatarActivity" />
+        <activity android:name=".SuomiActivity" />
+        <activity android:name=".RanskaActivity" />
+        <activity android:name=".ItaliaActivity" />
+        <activity android:name=".KreikkaActivity" />
+        <activity android:name=".SaksaActivity" />
+        <activity android:name=".EspanjaActivity" />
+        <activity android:name=".BrasiliaActivity" />
+        <activity android:name=".ArgentiinaActivity" />
+        <activity android:name=".UruguayActivity" />
+        <activity android:name=".ChileActivity" />
+        <activity android:name=".KolumbiaActivity" />
+        <activity android:name=".USAActivity" />
+        <activity android:name=".KanadaActivity" />
+        <activity android:name=".KuubaActivity" />
+        <activity android:name=".JamaikaActivity" />
+        <activity android:name=".BarbadosActivity" />
+    </application>
+
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

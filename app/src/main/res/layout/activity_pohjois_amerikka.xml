@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AasiaActivity">
+
+
+    <TextView
+        android:id="@+id/txtKanada"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btKuuba"
+        android:layout_toEndOf="@+id/txtBarbados"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Kanada"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btUSA"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtKanada"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/flag_usa" />
+
+    <Button
+        android:id="@+id/btKanada"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtKanada"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/flag_canada" />
+
+    <TextView
+        android:id="@+id/txtUSA"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtKanada"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="USA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/txtKuuba"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btKuuba"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Kuuba"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btKuuba"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/flag_cuba" />
+
+    <Button
+        android:id="@+id/btJamaika"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/flag_jamaica" />
+
+    <TextView
+        android:id="@+id/txtJamaika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtKanada"
+        android:layout_alignTop="@+id/txtKuuba"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Jamaica"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btBarbados"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtBarbados"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/flag_barbados" />
+
+    <TextView
+        android:id="@+id/txtBarbados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Barbados"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textAasia"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Pohjois-Amerikka"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

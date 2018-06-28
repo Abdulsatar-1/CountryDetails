@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/Aasia"
+        android:title="Aasia" />
+    <item
+        android:id="@+id/Eurooppa"
+        android:title="Eurooppa" />
+    <item
+        android:id="@+id/PA"
+        android:title="Pohjois-Amerikka" />
+    <item
+        android:id="@+id/EA"
+        android:title="Etelä-Amerikka" />
+
+
+</menu>

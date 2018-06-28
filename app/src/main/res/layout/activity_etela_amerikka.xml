@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AasiaActivity">
+
+
+    <TextView
+        android:id="@+id/txtBrasilia"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btArg"
+        android:layout_toEndOf="@+id/btArg"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Brasilia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btArg"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/flag_arg" />
+
+    <Button
+        android:id="@+id/btBrasilia"
+        android:layout_width="187dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btArg"
+        android:background="@drawable/flag_brazil" />
+
+    <TextView
+        android:id="@+id/txtArg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/txtBrasilia"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Argentiina"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/txtChile"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btChile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-45dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Chile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btChile"
+        android:layout_width="190dp"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/flag_chile" />
+
+
+    <TextView
+        android:id="@+id/txtUru"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtBrasilia"
+        android:layout_below="@+id/btUru"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Uruguay"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btUru"
+        android:layout_width="188dp"
+        android:layout_height="105dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btKolumbia"
+        android:background="@drawable/flag_uru" />
+
+    <Button
+        android:id="@+id/btKolumbia"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/txtQatar"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/flag_kolimbia" />
+
+    <TextView
+        android:id="@+id/txtQatar"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtKiina"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:fontFamily="sans-serif"
+        android:gravity="right"
+        android:text="Kolumbia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textAasia"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Etelä-Amerikka"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
