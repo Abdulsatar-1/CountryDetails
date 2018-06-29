@@ -1,12 +1,12 @@
 package cas.satar.com.countrydetails;
 /**
- * Author: Andulsatar Qaderzada 29.6.2016
- * Course: Android Programming
+ * Laatija/Authot: Andulsatar Qaderzada 29.6.2016
+ * Kurssi/Course: Android Ohjelmointi
  * Haaga-Helia University of Applied Sciense
  */
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,8 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -136,9 +136,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 Toast.makeText(this, "Siirryttiin etelä-Amerikkan", Toast.LENGTH_LONG).show();
         }
-
         return false;
     }
 }
+
 
 

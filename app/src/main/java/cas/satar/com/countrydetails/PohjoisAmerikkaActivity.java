@@ -94,6 +94,7 @@ public class PohjoisAmerikkaActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_pa, menu);
         return true;
     }
+
     public boolean onOptionsItemSelected(MenuItem item) {
 
 
@@ -105,17 +106,17 @@ public class PohjoisAmerikkaActivity extends AppCompatActivity {
         }
 
         switch (item.getItemId()) {
-            case R.id.Aasia:
-                Intent intent = new Intent(PohjoisAmerikkaActivity.this, AasiaActivity.class);
-                startActivity(intent);
-                Toast.makeText(this, "Siirryttiin aasiaan", Toast.LENGTH_LONG).show();
-        }
-
-        switch (item.getItemId()) {
             case R.id.Eurooppa:
                 Intent intent = new Intent(PohjoisAmerikkaActivity.this, EurooppaActivity.class);
                 startActivity(intent);
                 Toast.makeText(this, "Siirryttiin eurooppaan", Toast.LENGTH_LONG).show();
+        }
+
+        switch (item.getItemId()) {
+            case R.id.Aasia:
+                Intent intent = new Intent(PohjoisAmerikkaActivity.this, AasiaActivity.class);
+                startActivity(intent);
+                Toast.makeText(this, "Siirryttiin aasiaan", Toast.LENGTH_LONG).show();
         }
 
         switch (item.getItemId()) {
@@ -124,7 +125,6 @@ public class PohjoisAmerikkaActivity extends AppCompatActivity {
                 startActivity(intent);
                 Toast.makeText(this, "Siirryttiin etelä-Amerikkan", Toast.LENGTH_LONG).show();
         }
-
         return false;
     }
 }

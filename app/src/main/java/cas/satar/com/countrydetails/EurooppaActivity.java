@@ -112,6 +112,7 @@ public class EurooppaActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_eurooppa, menu);
         return true;
     }
+
     public boolean onOptionsItemSelected(MenuItem item) {
 
 
@@ -142,7 +143,6 @@ public class EurooppaActivity extends AppCompatActivity {
                 startActivity(intent);
                 Toast.makeText(this, "Siirryttiin etelä-Amerikkan", Toast.LENGTH_LONG).show();
         }
-
         return false;
     }
 

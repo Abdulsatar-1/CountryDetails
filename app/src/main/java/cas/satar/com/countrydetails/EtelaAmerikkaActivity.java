@@ -98,6 +98,7 @@ public class EtelaAmerikkaActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_ea, menu);
         return true;
     }
+
     public boolean onOptionsItemSelected(MenuItem item) {
 
 
@@ -106,13 +107,6 @@ public class EtelaAmerikkaActivity extends AppCompatActivity {
                 Intent intent = new Intent(EtelaAmerikkaActivity.this, MainActivity.class);
                 startActivity(intent);
                 Toast.makeText(this, "Siirryttiin etusivulle", Toast.LENGTH_LONG).show();
-        }
-
-        switch (item.getItemId()) {
-            case R.id.Aasia:
-                Intent intent = new Intent(EtelaAmerikkaActivity.this, AasiaActivity.class);
-                startActivity(intent);
-                Toast.makeText(this, "Siirryttiin aasiaan", Toast.LENGTH_LONG).show();
         }
 
         switch (item.getItemId()) {
@@ -129,6 +123,12 @@ public class EtelaAmerikkaActivity extends AppCompatActivity {
                 Toast.makeText(this, "Siirryttiin pohjois-Amerikkan", Toast.LENGTH_LONG).show();
         }
 
+        switch (item.getItemId()) {
+            case R.id.Aasia:
+                Intent intent = new Intent(EtelaAmerikkaActivity.this, AasiaActivity.class);
+                startActivity(intent);
+                Toast.makeText(this, "Siirryttiin aasiaan", Toast.LENGTH_LONG).show();
+        }
         return false;
     }
 }

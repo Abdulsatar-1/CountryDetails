@@ -110,6 +110,7 @@ public class AasiaActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_aasia, menu);
         return true;
     }
+
     public boolean onOptionsItemSelected(MenuItem item) {
 
 
@@ -117,7 +118,7 @@ public class AasiaActivity extends AppCompatActivity {
             case R.id.Etusivu:
                 Intent intent = new Intent(AasiaActivity.this, MainActivity.class);
                 startActivity(intent);
-                Toast.makeText(this, "Siirryttiin etusivulle", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Siirryttiin aasiaan", Toast.LENGTH_LONG).show();
         }
 
         switch (item.getItemId()) {
@@ -140,7 +141,6 @@ public class AasiaActivity extends AppCompatActivity {
                 startActivity(intent);
                 Toast.makeText(this, "Siirryttiin etelä-Amerikkan", Toast.LENGTH_LONG).show();
         }
-
         return false;
     }
 }
